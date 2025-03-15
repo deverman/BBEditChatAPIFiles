@@ -1,0 +1,21 @@
+{
+	"com.barebones.DocumentType": "com.barebones.bbedit.ChatAPIDescription",
+	"com.barebones.DocumentFormatVersion": 1,
+	"identifier": "chatgpt-docsample",
+	"displayName": "ChatGPT",
+	"endpoint": "https://api.openai.com/v1/chat/completions",
+	"endpointKeyHeaderName": "Authorization",
+	"endpointKeyHeaderValueFormat": "Bearer ${key}",
+	"models":
+		[
+			"gpt-3.5-turbo",
+			"gpt-3.5-turbo-16k",
+			"gpt-3.5-turbo-instruct",
+			"",
+			"gpt-4",
+			"gpt-4-32k"
+		],
+	"defaultModel": "gpt-4",
+	"getAPIKeyURL": "https://platform.openai.com/account/api-keys",
+	"accountHelpURL": "https://chat.openai.com/auth/login"
+}

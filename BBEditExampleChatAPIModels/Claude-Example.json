@@ -1,0 +1,26 @@
+//	Copyright ©2024 Bare Bones Software, Inc. All rights reserved.
+{
+	"com.barebones.DocumentType": "com.barebones.bbedit.ChatAPIDescription",
+	"com.barebones.DocumentFormatVersion": 1,
+	"identifier": "claude3-docsample",
+	"displayName": "Claude",
+	"endpoint": "https://api.anthropic.com/v1/messages",
+	"endpointKeyHeaderName": "x-api-key",
+	"endpointAdditionalHeaders":
+		{
+			"anthropic-version": "2023-06-01" 
+		},
+	"models":
+		[
+			"claude-3-opus-20240229",
+			"claude-3-sonnet-20240229",
+			"claude-3-haiku-20240307"
+		],
+	"additionalRequestParameters":
+		{
+			"max_tokens": 4096
+		},
+	"defaultModel": "claude-3-sonnet-20240229",
+	"getAPIKeyURL": "https://console.anthropic.com/",
+	"accountHelpURL": "https://claude.ai/login"
+}

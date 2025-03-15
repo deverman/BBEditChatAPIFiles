@@ -1,0 +1,15 @@
+//	Copyright ©2024 Bare Bones Software, Inc. All rights reserved.
+{
+	"com.barebones.DocumentType": "com.barebones.bbedit.ChatAPIDescription",
+	"com.barebones.DocumentFormatVersion": 1,
+	"identifier": "ollama-docsample",
+	"displayName": "Ollama",
+	"endpoint": "http://localhost:11434/api/chat",
+	"models":
+		[
+			"llama2"
+		],
+	"defaultModel": "llama2",
+	"requiresAPIKey": 0,
+	"explicitStreamParameterRequired": true
+}
