@@ -1,18 +1,21 @@
 //  Copyright ©2025 User-created BBEdit AI Worksheet configuration
 {
-	"com.barebones.DocumentType": "com.barebones.bbedit.ChatAPIDescription",
-	"com.barebones.DocumentFormatVersion": 1,
-	"identifier": "grok-models",
-	"displayName": "Grok AI",
-	"endpoint": "https://api.xai.com/v1/chat/completions",
-	"endpointKeyHeaderName": "Authorization",
-	"endpointKeyHeaderValueFormat": "Bearer ${key}",
-	"models":
-		[
-			"grok-2-1212",
-			"grok-2-vision-1212"
-		],
-	"defaultModel": "grok-2-1212",
-	"getAPIKeyURL": "https://console.xai.com/",
-	"accountHelpURL": "https://docs.xai.com/"
+  "com.barebones.DocumentType": "com.barebones.bbedit.ChatAPIDescription",
+  "com.barebones.DocumentFormatVersion": 1,
+  "identifier": "grok-models",
+  "displayName": "Grok AI",
+  "endpoint": "https://api.x.ai/v1/chat/completions",
+  "endpointKeyHeaderName": "Authorization",
+  "endpointKeyHeaderValueFormat": "Bearer ${key}",
+  "models": [
+    "grok-2-1212",
+    "grok-2-vision-1212",
+    "grok-3-beta",
+    "grok-3-mini-beta",
+    "grok-3-fast-beta",
+    "grok-3-mini-fast-beta"
+  ],
+  "defaultModel": "grok-3-beta",
+  "getAPIKeyURL": "https://console.xai.com/",
+  "accountHelpURL": "https://docs.xai.com/"
 }

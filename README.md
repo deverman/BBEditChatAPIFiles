@@ -28,6 +28,10 @@ BBEdit 15.1+ includes an AI Worksheet feature that can connect to different AI s
 - Configures xAI's Grok models including:
   - grok-2-1212 (text)
   - grok-2-vision-1212 (image understanding)
+  - grok-3-beta (latest flagship model)
+  - grok-3-mini-beta (smaller Grok 3 variant)
+  - grok-3-fast-beta (optimized for speed)
+  - grok-3-mini-fast-beta (small and fast variant)
 - Requires an API key from xAI (https://console.xai.com/)
 
 ### ollama-models.json
