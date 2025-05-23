@@ -2,8 +2,8 @@
 {
 	"com.barebones.DocumentType": "com.barebones.bbedit.ChatAPIDescription",
 	"com.barebones.DocumentFormatVersion": 1,
-	"identifier": "claude-3-7-sonnet",
-	"displayName": "Claude 3.7 Sonnet",
+	"identifier": "claude-extra",
+	"displayName": "Claude Extra",
 	"endpoint": "https://api.anthropic.com/v1/messages",
 	"endpointKeyHeaderName": "x-api-key",
 	"endpointAdditionalHeaders":
@@ -12,7 +12,9 @@
 		},
 	"models":
 		[
-			"claude-3-7-sonnet-20250219"
+			"claude-3-7-sonnet-20250219",
+			"claude-sonnet-4-20250514",
+			"claude-opus-4-20250514"
 		],
 	"additionalRequestParameters":
 		{

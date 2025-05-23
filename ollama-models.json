@@ -1,5 +1,4 @@
 //  Copyright ©2025 User-created BBEdit AI Worksheet configuration
-// Additional Ollama models installed on my computer
 {
 	"com.barebones.DocumentType": "com.barebones.bbedit.ChatAPIDescription",
 	"com.barebones.DocumentFormatVersion": 1,
@@ -9,7 +8,8 @@
 	"models": [
 		"gemma3:27b",
 		"llama3.2:latest",
-		"deepseek-r1:latest"
+		"deepseek-r1:latest",
+		"devstral"
 	],
 	"defaultModel": "gemma3:27b",
 	"requiresAPIKey": 0,
