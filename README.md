@@ -6,7 +6,7 @@ This repository contains JSON configuration files for connecting BBEdit AI Works
 
 BBEdit 15.1+ includes an AI Worksheet feature that can connect to different AI services. These configuration files make it easy to set up connections to:
 
-1. **Claude 3.7 Sonnet** - Anthropic's high-performance language model
+1. **Claude Extra** - Anthropic's high-performance language models
 2. **Grok AI** - xAI's text and vision models
 3. **Ollama** - Locally-run open source language models
 
@@ -19,8 +19,11 @@ BBEdit 15.1+ includes an AI Worksheet feature that can connect to different AI s
 
 ## Configuration Files
 
-### claude-3-7-sonnet.json
-- Configures the Claude 3.7 Sonnet model from Anthropic
+### claude-extra.json
+- Configures multiple Claude models from Anthropic including:
+  - claude-3-7-sonnet-20250219 (Claude 3.7 Sonnet)
+  - claude-sonnet-4-20250514 (Claude Sonnet 4)
+  - claude-opus-4-20250514 (Claude Opus 4)
 - Requires an API key from Anthropic (https://console.anthropic.com/)
 - Sets optimal parameters including max_tokens and the correct API version
 
@@ -40,6 +43,7 @@ BBEdit 15.1+ includes an AI Worksheet feature that can connect to different AI s
   - gemma3:27b
   - llama3.2:latest
   - deepseek-r1:latest
+  - devstral
 - No API key required, but you need to have Ollama installed and running with these models
 
 ## Requirements
