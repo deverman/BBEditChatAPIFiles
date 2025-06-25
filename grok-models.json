@@ -17,5 +17,6 @@
   ],
   "defaultModel": "grok-3-beta",
   "getAPIKeyURL": "https://console.xai.com/",
-  "accountHelpURL": "https://docs.xai.com/"
+  "accountHelpURL": "https://docs.xai.com/",
+  "additionalRequestParameters": {"search_parameters": {"mode": "auto"} }
 }
