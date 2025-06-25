@@ -7,8 +7,9 @@ This repository contains JSON configuration files for connecting BBEdit AI Works
 BBEdit 15.1+ includes an AI Worksheet feature that can connect to different AI services. These configuration files make it easy to set up connections to:
 
 1. **Claude Extra** - Anthropic's high-performance language models
-2. **Grok AI** - xAI's text and vision models
+2. **Grok AI** - xAI's text and vision models including web search
 3. **Ollama** - Locally-run open source language models
+4. **Venice AI** - Privacy focused large language models
 
 ## How to Use These Files
 
@@ -46,10 +47,27 @@ BBEdit 15.1+ includes an AI Worksheet feature that can connect to different AI s
   - devstral
 - No API key required, but you need to have Ollama installed and running with these models
 
+### grok-models.json (have not gotten this one to work yet)
+- Configures xAI's Grok models including:
+  - venice-uncensored (text)
+  - qwen-2.5-qwq-32b
+  - qwen3-4b
+  - mistral-31-24b
+  - qwen3-235b
+  - llama-3.2-3b
+  - llama-3.3-70b
+  - llama-3.1-405b
+  - dolphin-2.9.2-qwen2-72b
+  - qwen-2.5-vl
+  - qwen-2.5-coder-32b
+  - deepseek-r1-671b
+  - deepseek-coder-v2-lite
+- Requires an API key from xAI (https://venice.ai/settings/api)
+
 ## Requirements
 
-- BBEdit 15.1 or later
-- API keys for Claude and Grok (if using those services)
+- BBEdit 15.5.1 or later
+- API keys for Claude, Venice Grok (if using those services)
 - Ollama installed locally (if using Ollama models)
 
 ## Notes
