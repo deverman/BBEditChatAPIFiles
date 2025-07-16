@@ -30,12 +30,12 @@ BBEdit 15.1+ includes an AI Worksheet feature that can connect to different AI s
 
 ### grok-models.json (have not gotten this one to work yet)
 - Configures xAI's Grok models including:
-  - grok-2-1212 (text)
-  - grok-2-vision-1212 (image understanding)
-  - grok-3-beta (latest flagship model)
-  - grok-3-mini-beta (smaller Grok 3 variant)
-  - grok-3-fast-beta (optimized for speed)
-  - grok-3-mini-fast-beta (small and fast variant)
+    - grok-4-0709",
+    - grok-2-vision-1212",
+    - grok-3",
+    - grok-3-mini",
+    - grok-3-fast",
+    - grok-3-mini-fast"
 - Requires an API key from xAI (https://console.xai.com/)
 
 ### ollama-models.json
@@ -79,3 +79,7 @@ BBEdit 15.1+ includes an AI Worksheet feature that can connect to different AI s
 ## Adding More Models
 
 You can modify these files or create new ones following the same structure to add support for additional AI models and services.
+
+## Additional Resources
+
+- [BBEdit AI Worksheet Models Documents](https://www.barebones.com/support/technotes/AIWorksheetModels.html)
