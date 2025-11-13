@@ -10,12 +10,14 @@
   "endpointKeyHeaderValueFormat": "Bearer ${key}",
   "models": [
     "grok-4-0709",
-    "grok-4-fast",
     "grok-4-fast-reasoning",
     "grok-4-fast-non-reasoning",
     "grok-code-fast-1",
-    "grok-3-beta",
-    "grok-3-mini-beta"
+    "",
+    "grok-3",
+    "grok-3-mini",
+    "",
+    "grok-2-vision-1212"
   ],
   "defaultModel": "grok-4-0709",
   "getAPIKeyURL": "https://console.xai.com/",
